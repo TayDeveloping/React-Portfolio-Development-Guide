@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f0f4f8;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* Header and Footer Styles */
+header, footer {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; 
+}
+
+nav a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+/* Style for project cards */
+.project {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .project {
+        margin: 10px 0; 
+    }
+}
